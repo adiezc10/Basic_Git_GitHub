@@ -95,14 +95,12 @@ Dónde encontrar proyectos para contribuir:
 - forgoodfirstissue
 - goodfirstissue.dev
 - goodfirstissues.com
-Recomendaciones:
-Seleccionar proyectos de interés personal.
-Explorar cómo colaborar consultando el archivo CONTRIBUTING.md en cada repositorio.
-Compartir logros: Cómo promocionar contribuciones en LinkedIn u otras redes profesionales.
-## 7. Práctica Guiada
-Crear y gestionar un repositorio: Ejercicio práctico de principio a fin.
-Crear y gestionar ramas: Ejercicios con conflictos y merge.
-Uso de Issues y Pull Requests: Simulación de un flujo de trabajo colaborativo.
+
+**Recomendaciones**: 
+- Seleccionar proyectos de interés personal.
+- Explorar cómo colaborar consultando el archivo CONTRIBUTING.md en cada repositorio.
+- Compartir logros: Cómo promocionar contribuciones en LinkedIn u otras redes profesionales.
+
 ## 8. Integraciones y Automatizaciones
 GitHub Actions: Introducción a las automatizaciones en GitHub.
 Otras integraciones útiles: Herramientas para mejorar la productividad (p. ej., Slack, Trello).
@@ -110,3 +108,10 @@ Otras integraciones útiles: Herramientas para mejorar la productividad (p. ej.,
 Documentación: Importancia de mantener un README claro y actual.
 Commits claros y frecuentes: Ejemplos de buenos mensajes de commit.
 Uso de .gitignore: Evitar subir archivos innecesarios.
+
+## 7. Práctica guiada
+Crear y gestionar un repositorio: Ejercicio práctico de creación de apuntes con GitHub y GitHub Pages.
+
+1. Creamos una carpeta en nuestro equipo, será nuestro repositorio.
+2. Desde VScode creamos un archivo con extensión md.
+3. Formateamos código con Markdown.
