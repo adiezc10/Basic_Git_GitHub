@@ -115,3 +115,6 @@ Crear y gestionar un repositorio: Ejercicio práctico de creación de apuntes co
 1. Creamos una carpeta en nuestro equipo, será nuestro repositorio.
 2. Desde VScode creamos un archivo con extensión md.
 3. Formateamos código con Markdown.
+4. commit + pull
+5. Comprobamos que el archivo está en github
+6. Configuramos GitHub Pages: settings, code and automation, pages, branch = main
