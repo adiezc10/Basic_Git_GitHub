@@ -1,5 +1,5 @@
 
-# Curso Git + GitHub para Docentes - RETACantabria 2024/2025
+# Introducción rápida a Git y GitHub
 
 ## 1. Introducción a Git y GitHub
 **Qué es Git**: Un sistema de control de versiones distribuido que permite registrar y gestionar cada cambio en los archivos de un proyecto. 
