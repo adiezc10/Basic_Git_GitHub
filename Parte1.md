@@ -25,6 +25,7 @@
       - [Instalación:](#instalación)
       - [Uso básico:](#uso-básico)
 
+
 ---
 
 ## 1. Introducción a Git y GitHub
