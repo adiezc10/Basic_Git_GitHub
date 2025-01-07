@@ -1,7 +1,29 @@
 
 # Introducción rápida a Git y GitHub
 
-`[TOC]`
+- [Introducción rápida a Git y GitHub](#introducción-rápida-a-git-y-github)
+  - [1. Introducción a Git y GitHub](#1-introducción-a-git-y-github)
+    - [Qué es Git](#qué-es-git)
+    - [Qué es GitHub](#qué-es-github)
+  - [2. Instalación y configuración de Git](#2-instalación-y-configuración-de-git)
+  - [3. Registro y exploración de GitHub](#3-registro-y-exploración-de-github)
+    - [Crear una cuenta en GitHub.](#crear-una-cuenta-en-github)
+    - [Paseo por GitHub: principales herramientas](#paseo-por-github-principales-herramientas)
+      - [Estructura de un repositorio en GitHub](#estructura-de-un-repositorio-en-github)
+  - [4. Configuración y flujo de trabajo en Git](#4-configuración-y-flujo-de-trabajo-en-git)
+  - [5. Estrategias de control de versiones](#5-estrategias-de-control-de-versiones)
+    - [GitFlow](#gitflow)
+    - [Otras estrategias](#otras-estrategias)
+  - [6. Trabajar en proyectos Open Source](#6-trabajar-en-proyectos-open-source)
+  - [7. Integraciones y Automatizaciones](#7-integraciones-y-automatizaciones)
+  - [8. Buenas Prácticas y Consejos Finales](#8-buenas-prácticas-y-consejos-finales)
+  - [9. Práctica guiada](#9-práctica-guiada)
+  - [10. Markdown y VS Code](#10-markdown-y-vs-code)
+    - [Qué es Markdown](#qué-es-markdown)
+    - [Plugin recomendado: Markdown All in One](#plugin-recomendado-markdown-all-in-one)
+      - [Características:](#características)
+      - [Instalación:](#instalación)
+      - [Uso básico:](#uso-básico)
 
 ---
 
