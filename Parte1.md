@@ -1,22 +1,7 @@
 
 # Introducción rápida a Git y GitHub
 
-- [Introducción rápida a Git y GitHub](#introducción-rápida-a-git-y-github)
-  - [1. Introducción a Git y GitHub](#1-introducción-a-git-y-github)
-    - [Qué es Git](#qué-es-git)
-    - [Qué es GitHub](#qué-es-github)
-  - [2. Instalación y configuración de Git](#2-instalación-y-configuración-de-git)
-  - [3. Registro y exploración de GitHub](#3-registro-y-exploración-de-github)
-    - [Crear una cuenta en GitHub.](#crear-una-cuenta-en-github)
-    - [Paseo por GitHub: principales herramientas](#paseo-por-github-principales-herramientas)
-      - [Estructura de un repositorio en GitHub](#estructura-de-un-repositorio-en-github)
-  - [4. Configuración y flujo de trabajo en Git](#4-configuración-y-flujo-de-trabajo-en-git)
-  - [5. Estrategias de control de versiones](#5-estrategias-de-control-de-versiones)
-  - [6. Trabajar en proyectos Open Source](#6-trabajar-en-proyectos-open-source)
-  - [8. Integraciones y Automatizaciones](#8-integraciones-y-automatizaciones)
-  - [9. Buenas Prácticas y Consejos Finales](#9-buenas-prácticas-y-consejos-finales)
-  - [7. Práctica guiada](#7-práctica-guiada)
-
+`[TOC]`
 
 ---
 
@@ -50,7 +35,7 @@ Existen alternativas como GitLab y Bitbucket.
 
 ## 3. Registro y exploración de GitHub
 ### Crear una cuenta en GitHub. 
-- [github.com/](https://github.com/)
+Registrarse en [github.com/](https://github.com/)
 
 ### Paseo por GitHub: principales herramientas
 
@@ -99,6 +84,8 @@ Las estrellas también sirven como un indicador de popularidad en la comunidad.
 
 - Pull Request (PR): Aquí se encuentran las solicitudes de cambios que otros desean integrar en el proyecto. Puedes ver el historial de PRs, las discusiones sobre los cambios, y el estado (abierta, fusionada o cerrada).
 
+---
+
 ## 4. Configuración y flujo de trabajo en Git
 
 - Inicializar un repositorio: `git init`
@@ -108,31 +95,50 @@ Las estrellas también sirven como un indicador de popularidad en la comunidad.
 - Flujo básico de Git: Sincronizar con un repositorio remoto: `git push` y `git pull`
 - Gestión de ramas: Crear y cambiar ramas, merge, y resolución de conflictos.
 
+---
+
 ## 5. Estrategias de control de versiones
-GitFlow: Explicación de este flujo de trabajo.
+### GitFlow
+- **Ramas principales**: `main` y `develop`.
+- **Ramas auxiliares**: `feature/*`, `release/*`, `hotfix/*`.
+### Otras estrategias
+- **Feature Branch Workflow**: Cada nueva funcionalidad en su propia rama.
+- **Trunk-Based Development**: Realizar commits directamente en main.
+
+--- 
 
 ## 6. Trabajar en proyectos Open Source
-**¿Por qué contribuir?**: Visibilidad profesional y mejora de habilidades.
+**¿Por qué contribuir?**
+- Mejora tus habilidades técnicas.
+- Visibilidad profesional.
 
 Dónde encontrar proyectos para contribuir:
-- forgoodfirstissue
-- goodfirstissue.dev
-- goodfirstissues.com
+- [forgoodfirstissue](https://forgoodfirstissue.github.com/)
+- [goodfirstissue.dev](https://goodfirstissue.dev/)
+- [goodfirstissues.com](https://goodfirstissues.com/)
+
 
 **Recomendaciones**: 
 - Seleccionar proyectos de interés personal.
-- Explorar cómo colaborar consultando el archivo CONTRIBUTING.md en cada repositorio.
+- Explorar cómo colaborar consultando el archivo `CONTRIBUTING.md` en cada repositorio.
 - Compartir logros: Cómo promocionar contribuciones en LinkedIn u otras redes profesionales.
 
-## 8. Integraciones y Automatizaciones
+--- 
+
+## 7. Integraciones y Automatizaciones
 GitHub Actions: Introducción a las automatizaciones en GitHub.
 Otras integraciones útiles: Herramientas para mejorar la productividad (p. ej., Slack, Trello).
-## 9. Buenas Prácticas y Consejos Finales
+
+---
+
+## 8. Buenas Prácticas y Consejos Finales
 Documentación: Importancia de mantener un README claro y actual.
 Commits claros y frecuentes: Ejemplos de buenos mensajes de commit.
 Uso de .gitignore: Evitar subir archivos innecesarios.
 
-## 7. Práctica guiada
+--- 
+
+## 9. Práctica guiada
 Crear y gestionar un repositorio: Ejercicio práctico de creación de apuntes con GitHub y GitHub Pages.
 
 1. Creamos una carpeta en nuestro equipo, será nuestro repositorio.
@@ -141,3 +147,24 @@ Crear y gestionar un repositorio: Ejercicio práctico de creación de apuntes co
 4. commit + pull
 5. Comprobamos que el archivo está en github
 6. Configuramos GitHub Pages: settings, code and automation, pages, branch = main
+
+---
+## 10. Markdown y VS Code
+### Qué es Markdown
+Markdown es un lenguaje de marcado ligero que permite crear documentos con formato de manera sencilla. Es ideal para README, blogs, documentación técnica, etc.
+
+### Plugin recomendado: Markdown All in One
+#### Características:
+- **Previsualización en vivo**: Muestra cómo se verá el documento mientras lo editas.  
+- **Atajos de teclado**: Facilita el formateo con comandos rápidos.  
+- **Soporte para tablas, listas y encabezados**.  
+- **Generación automática de índices (TOC)**: Crea índices dinámicos que se actualizan según los encabezados del documento.  
+
+#### Instalación:
+1. Abre VS Code.
+2. Ve a la pestaña de extensiones (Ctrl+Shift+X).
+3. Busca "Markdown All in One" e instálalo.
+#### Uso básico:
+- Previsualización: Ctrl+Shift+V.
+- Generar una tabla de contenido automática: Inserta [TOC] en tu archivo.
+- 
