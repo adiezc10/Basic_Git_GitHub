@@ -1,18 +1,40 @@
 
 # Introducción rápida a Git y GitHub
 
+- [Introducción rápida a Git y GitHub](#introducción-rápida-a-git-y-github)
+  - [1. Introducción a Git y GitHub](#1-introducción-a-git-y-github)
+    - [Qué es Git](#qué-es-git)
+    - [Qué es GitHub](#qué-es-github)
+  - [2. Instalación y configuración de Git](#2-instalación-y-configuración-de-git)
+  - [3. Registro y exploración de GitHub](#3-registro-y-exploración-de-github)
+    - [Crear una cuenta en GitHub.](#crear-una-cuenta-en-github)
+    - [Paseo por GitHub: principales herramientas](#paseo-por-github-principales-herramientas)
+      - [Estructura de un repositorio en GitHub](#estructura-de-un-repositorio-en-github)
+  - [4. Configuración y flujo de trabajo en Git](#4-configuración-y-flujo-de-trabajo-en-git)
+  - [5. Estrategias de control de versiones](#5-estrategias-de-control-de-versiones)
+  - [6. Trabajar en proyectos Open Source](#6-trabajar-en-proyectos-open-source)
+  - [8. Integraciones y Automatizaciones](#8-integraciones-y-automatizaciones)
+  - [9. Buenas Prácticas y Consejos Finales](#9-buenas-prácticas-y-consejos-finales)
+  - [7. Práctica guiada](#7-práctica-guiada)
+
+
+---
+
 ## 1. Introducción a Git y GitHub
-**Qué es Git**: Un sistema de control de versiones distribuido que permite registrar y gestionar cada cambio en los archivos de un proyecto. 
 
-Permite gestión de versiones, ramificaciones, clonaciones y flujos de trabajo no lineales.
+### Qué es Git
+Git es un sistema de control de versiones distribuido que permite registrar y gestionar cada cambio en los archivos de un proyecto. Facilita la colaboración en equipos, ramificaciones, clonaciones y flujos de trabajo no lineales.  
 
-Sitio oficial: [git-scm.com](https://git-scm.com/)]
+- Sitio oficial: [git-scm.com](https://git-scm.com/)
 
-**Qué es GitHub**: Un servicio en la nube que aloja repositorios de código y facilita la colaboración en proyectos. Existen alternativas como GitLab y Bitbucket.
+### Qué es GitHub
+GitHub es un servicio en la nube que aloja repositorios de código y facilita la colaboración en proyectos.  
+Existen alternativas como GitLab y Bitbucket.
 
-Sito oficial: [github.com/](https://github.com/)
+- Sitio oficial: [github.com](https://github.com/)
+- Vídeo explicativo del funcionamiento de GitHub: [enlace](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
-Vídeo explicativo del funcionamiento de GitHub: [enlace](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+---
 
 ## 2. Instalación y configuración de Git
 1. Descargar e instalar Git.
@@ -21,9 +43,10 @@ Vídeo explicativo del funcionamiento de GitHub: [enlace](https://www.youtube.co
 
 3. Configuración inicial:
 
-`git config --global user.name "Tu Nombre"`
+- `git config --global user.name "Tu Nombre"`
+- `git config --global user.email "tu@correo.com"`
 
-`git config --global user.email "tu@correo.com"`
+--- 
 
 ## 3. Registro y exploración de GitHub
 ### Crear una cuenta en GitHub. 
