@@ -195,7 +195,6 @@ Veamos las características principales del plugin:
 - Implementada como una lista en Markdown sin necesidad de sintaxis extendida.  
 - Crear con el comando: **"Create Table of Contents"**.  
 - Actualización automática del índice al guardar el archivo.  
-- Controla el estilo de los IDs de encabezados con la configuración `slugifyMode` (compatible con VS Code, GitHub, GitLab y más).  
 
 #### Exportar Markdown a HTML
 - Comando: **"Print current document to HTML"** para exportar el archivo actual.  
