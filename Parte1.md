@@ -30,10 +30,9 @@
       - [Matemáticas](#matemáticas)
       - [Gestión de enlaces](#gestión-de-enlaces)
       - [Otras características](#otras-características)
-      - [Soporte de sintaxis](#soporte-de-sintaxis)
       - [Atajos de teclado](#atajos-de-teclado)
       - [Indentación adaptativa](#indentación-adaptativa)
-  - ["markdown.extension.list.indentationSize": "inherit"](#markdownextensionlistindentationsize-inherit)
+
 
 
 ---
@@ -52,8 +51,6 @@ Existen alternativas como GitLab y Bitbucket.
 - Sitio oficial: [github.com](https://github.com/)
 - Vídeo explicativo del funcionamiento de GitHub: [enlace](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
----
-
 ## 2. Instalación y configuración de Git
 1. Descargar e instalar Git.
 
@@ -63,8 +60,6 @@ Existen alternativas como GitLab y Bitbucket.
 
 - `git config --global user.name "Tu Nombre"`
 - `git config --global user.email "tu@correo.com"`
-
---- 
 
 ## 3. Registro y exploración de GitHub
 ### Crear una cuenta en GitHub. 
@@ -117,8 +112,6 @@ Las estrellas también sirven como un indicador de popularidad en la comunidad.
 
 - Pull Request (PR): Aquí se encuentran las solicitudes de cambios que otros desean integrar en el proyecto. Puedes ver el historial de PRs, las discusiones sobre los cambios, y el estado (abierta, fusionada o cerrada).
 
----
-
 ## 4. Configuración y flujo de trabajo en Git
 
 - Inicializar un repositorio: `git init`
@@ -128,8 +121,6 @@ Las estrellas también sirven como un indicador de popularidad en la comunidad.
 - Flujo básico de Git: Sincronizar con un repositorio remoto: `git push` y `git pull`
 - Gestión de ramas: Crear y cambiar ramas, merge, y resolución de conflictos.
 
----
-
 ## 5. Estrategias de control de versiones
 ### GitFlow
 - **Ramas principales**: `main` y `develop`.
@@ -137,8 +128,6 @@ Las estrellas también sirven como un indicador de popularidad en la comunidad.
 ### Otras estrategias
 - **Feature Branch Workflow**: Cada nueva funcionalidad en su propia rama.
 - **Trunk-Based Development**: Realizar commits directamente en main.
-
---- 
 
 ## 6. Trabajar en proyectos Open Source
 **¿Por qué contribuir?**
@@ -150,26 +139,19 @@ Dónde encontrar proyectos para contribuir:
 - [goodfirstissue.dev](https://goodfirstissue.dev/)
 - [goodfirstissues.com](https://goodfirstissues.com/)
 
-
 **Recomendaciones**: 
 - Seleccionar proyectos de interés personal.
 - Explorar cómo colaborar consultando el archivo `CONTRIBUTING.md` en cada repositorio.
 - Compartir logros: Cómo promocionar contribuciones en LinkedIn u otras redes profesionales.
 
---- 
-
 ## 7. Integraciones y Automatizaciones
 GitHub Actions: Introducción a las automatizaciones en GitHub.
 Otras integraciones útiles: Herramientas para mejorar la productividad (p. ej., Slack, Trello).
-
----
 
 ## 8. Buenas Prácticas y Consejos Finales
 Documentación: Importancia de mantener un README claro y actual.
 Commits claros y frecuentes: Ejemplos de buenos mensajes de commit.
 Uso de .gitignore: Evitar subir archivos innecesarios.
-
---- 
 
 ## 9. Práctica guiada
 Crear y gestionar un repositorio: Ejercicio práctico de creación de apuntes con GitHub y GitHub Pages.
@@ -180,8 +162,6 @@ Crear y gestionar un repositorio: Ejercicio práctico de creación de apuntes co
 4. commit + pull
 5. Comprobamos que el archivo está en github
 6. Configuramos GitHub Pages: settings, code and automation, pages, branch = main
-
----
 
 ## 10. Markdown y VS Code
 ### Qué es Markdown
@@ -239,31 +219,11 @@ Veamos las características principales del plugin:
 - Atajos para cerrar la vista previa de Markdown usando la misma tecla que para abrirla.  
 - Compatibilidad con varias extensiones de Markdown.  
 
-#### Soporte de sintaxis
-- **CommonMark** (Markdown estándar).  
-- **GitHub Flavored Markdown (GFM)**.  
-- **Fórmulas matemáticas LaTeX** (usando KaTeX).  
-- **Cabeceras YAML**.  
-- Compatible con otras extensiones como:  
-  - Soporte para Mermaid.  
-  - Emoji en Markdown.  
-  - Notas al pie.  
-  - Superíndice en Markdown.  
-  - Markdown+Math (si `markdown.extension.math.enabled` está deshabilitado).  
-
 #### Atajos de teclado
 Consulta la sección de [Key binding](https://github.com/yzhang-gh/vscode-markdown#key-bindings) en la documentación oficial para obtener una lista completa de los atajos de teclado disponibles.  
-
-
 
 #### Indentación adaptativa
 - De manera predeterminada, el plugin intenta determinar el tamaño de indentación según el contexto de la lista y la especificación **CommonMark**.  
 - Los elementos de la lista se alinean con el contenido de su elemento padre. Esto significa generalmente:  
   - Los elementos de listas con viñetas se indentan por **dos espacios** por nivel.  
   - Los elementos de listas ordenadas se indentan según el ancho del marcador de la lista padre más los espacios posteriores.  
-- Si prefieres un tamaño de indentación fijo, puedes cambiar la configuración `list.indentationSize`:  
-  ```json
-  "markdown.extension.list.indentationSize": "inherit"
----  
-
-Estas funcionalidades hacen del plugin una herramienta poderosa para editar documentos Markdown de manera eficiente y con gran personalización.
