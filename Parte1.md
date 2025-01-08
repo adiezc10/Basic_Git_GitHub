@@ -29,9 +29,9 @@
       - [Exportar Markdown a HTML](#exportar-markdown-a-html)
       - [Matemáticas](#matemáticas)
       - [Gestión de enlaces](#gestión-de-enlaces)
-      - [Otras características](#otras-características)
       - [Atajos de teclado](#atajos-de-teclado)
       - [Indentación adaptativa](#indentación-adaptativa)
+      - [Otras características](#otras-características)
 
 
 
@@ -215,10 +215,6 @@ Veamos las características principales del plugin:
   - Encabezados dentro del documento.  
   - Referencias de enlaces.  
 
-#### Otras características
-- Atajos para cerrar la vista previa de Markdown usando la misma tecla que para abrirla.  
-- Compatibilidad con varias extensiones de Markdown.  
-
 #### Atajos de teclado
 Consulta la sección de [Key binding](https://github.com/yzhang-gh/vscode-markdown#key-bindings) en la documentación oficial para obtener una lista completa de los atajos de teclado disponibles.  
 
@@ -227,3 +223,7 @@ Consulta la sección de [Key binding](https://github.com/yzhang-gh/vscode-markdo
 - Los elementos de la lista se alinean con el contenido de su elemento padre. Esto significa generalmente:  
   - Los elementos de listas con viñetas se indentan por **dos espacios** por nivel.  
   - Los elementos de listas ordenadas se indentan según el ancho del marcador de la lista padre más los espacios posteriores.  
+
+#### Otras características
+- Atajos para cerrar la vista previa de Markdown usando la misma tecla que para abrirla.  
+- Compatibilidad con varias extensiones de Markdown.  
