@@ -21,9 +21,19 @@
   - [10. Markdown y VS Code](#10-markdown-y-vs-code)
     - [Qué es Markdown](#qué-es-markdown)
     - [Plugin recomendado: Markdown All in One](#plugin-recomendado-markdown-all-in-one)
-      - [Características:](#características)
-      - [Instalación:](#instalación)
-      - [Uso básico:](#uso-básico)
+      - [Edición básica](#edición-básica)
+      - [Edición de listas](#edición-de-listas)
+      - [Continuación de listas](#continuación-de-listas)
+      - [Markdown al estilo GitHub (GFM)](#markdown-al-estilo-github-gfm)
+      - [Tabla de contenidos (TOC)](#tabla-de-contenidos-toc)
+      - [Exportar Markdown a HTML](#exportar-markdown-a-html)
+      - [Matemáticas](#matemáticas)
+      - [Gestión de enlaces](#gestión-de-enlaces)
+      - [Otras características](#otras-características)
+      - [Soporte de sintaxis](#soporte-de-sintaxis)
+      - [Atajos de teclado](#atajos-de-teclado)
+      - [Indentación adaptativa](#indentación-adaptativa)
+  - ["markdown.extension.list.indentationSize": "inherit"](#markdownextensionlistindentationsize-inherit)
 
 
 ---
@@ -172,22 +182,88 @@ Crear y gestionar un repositorio: Ejercicio práctico de creación de apuntes co
 6. Configuramos GitHub Pages: settings, code and automation, pages, branch = main
 
 ---
+
 ## 10. Markdown y VS Code
 ### Qué es Markdown
 Markdown es un lenguaje de marcado ligero que permite crear documentos con formato de manera sencilla. Es ideal para README, blogs, documentación técnica, etc.
 
 ### Plugin recomendado: Markdown All in One
-#### Características:
-- **Previsualización en vivo**: Muestra cómo se verá el documento mientras lo editas.  
-- **Atajos de teclado**: Facilita el formateo con comandos rápidos.  
-- **Soporte para tablas, listas y encabezados**.  
-- **Generación automática de índices (TOC)**: Crea índices dinámicos que se actualizan según los encabezados del documento.  
+Veamos las características principales del plugin:
 
-#### Instalación:
-1. Abre VS Code.
-2. Ve a la pestaña de extensiones (Ctrl+Shift+X).
-3. Busca "Markdown All in One" e instálalo.
-#### Uso básico:
-- Previsualización: Ctrl+Shift+V.
-- Generar una tabla de contenido automática: Inserta [TOC] en tu archivo.
-- 
+#### Edición básica
+- Alternar formato de **negrita**, *cursiva*, ~~tachado~~, etc.  
+- Continuación automática de citas en bloque (`>`).  
+
+#### Edición de listas
+- Continuación automática de listas al presionar `Enter`.  
+- Tamaño de indentación adaptativo según la especificación de CommonMark.  
+- Aumentar o reducir niveles de listas con `Tab` y `Backspace`.  
+- Alternar elementos de listas de tareas (añadir/quitar `[ ]` o `[x]`).  
+
+#### Continuación de listas
+- Al presionar `Enter` dentro de un elemento de la lista, se insertará automáticamente un marcador de lista en la nueva línea.  
+  - En listas ordenadas, los números también se actualizarán automáticamente.  
+  - Los comandos "Copiar/Mover línea hacia arriba/abajo" también manejan las listas de manera adecuada.  
+- Para aumentar o reducir el nivel de la lista, presiona `Tab` o `Backspace` después del primer espacio que sigue al marcador de la lista.  
+
+#### Markdown al estilo GitHub (GFM)
+- Formateo de tablas estilo GitHub.  
+- Soporte para listas de tareas.  
+- Tachado (~~texto tachado~~).  
+
+#### Tabla de contenidos (TOC)
+- Implementada como una lista en Markdown sin necesidad de sintaxis extendida.  
+- Crear con el comando: **"Create Table of Contents"**.  
+- Actualización automática del índice al guardar el archivo.  
+- Controla el estilo de los IDs de encabezados con la configuración `slugifyMode` (compatible con VS Code, GitHub, GitLab y más).  
+
+#### Exportar Markdown a HTML
+- Comando: **"Print current document to HTML"** para exportar el archivo actual.  
+- Comando: **"Print documents to HTML"** para exportar varios archivos.  
+- Carga extensiones de Markdown de la misma manera que lo hace VS Code.  
+
+#### Matemáticas
+- Compatibilidad con fórmulas matemáticas estilo LaTeX (`pandoc-style`).  
+- Resaltado de sintaxis en el editor gracias a TextMate.  
+- Renderizado en la vista previa utilizando KaTeX.  
+- Autocompletado de comandos de LaTeX.  
+
+#### Gestión de enlaces
+- Pegar una URL sobre un texto seleccionado para crear un enlace automáticamente.  
+- Autocompletado para enlaces hacia:  
+  - Imágenes y otros recursos del espacio de trabajo (archivos).  
+  - Encabezados dentro del documento.  
+  - Referencias de enlaces.  
+
+#### Otras características
+- Atajos para cerrar la vista previa de Markdown usando la misma tecla que para abrirla.  
+- Compatibilidad con varias extensiones de Markdown.  
+
+#### Soporte de sintaxis
+- **CommonMark** (Markdown estándar).  
+- **GitHub Flavored Markdown (GFM)**.  
+- **Fórmulas matemáticas LaTeX** (usando KaTeX).  
+- **Cabeceras YAML**.  
+- Compatible con otras extensiones como:  
+  - Soporte para Mermaid.  
+  - Emoji en Markdown.  
+  - Notas al pie.  
+  - Superíndice en Markdown.  
+  - Markdown+Math (si `markdown.extension.math.enabled` está deshabilitado).  
+
+#### Atajos de teclado
+Consulta la sección de [Key binding](https://github.com/yzhang-gh/vscode-markdown#key-bindings) en la documentación oficial para obtener una lista completa de los atajos de teclado disponibles.  
+
+
+
+#### Indentación adaptativa
+- De manera predeterminada, el plugin intenta determinar el tamaño de indentación según el contexto de la lista y la especificación **CommonMark**.  
+- Los elementos de la lista se alinean con el contenido de su elemento padre. Esto significa generalmente:  
+  - Los elementos de listas con viñetas se indentan por **dos espacios** por nivel.  
+  - Los elementos de listas ordenadas se indentan según el ancho del marcador de la lista padre más los espacios posteriores.  
+- Si prefieres un tamaño de indentación fijo, puedes cambiar la configuración `list.indentationSize`:  
+  ```json
+  "markdown.extension.list.indentationSize": "inherit"
+---  
+
+Estas funcionalidades hacen del plugin una herramienta poderosa para editar documentos Markdown de manera eficiente y con gran personalización.
